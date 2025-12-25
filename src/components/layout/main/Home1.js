@@ -1,11 +1,11 @@
 import Hero6 from "@/components/sections/hero-banners/Hero6";
 import FeatureCourses from "@/components/sections/featured-courses/FeatureCourses";
 import PopularSubjects2 from "@/components/sections/popular-subjects/PopularSubjects2";
-import PopularSubjects3 from "@/components/sections/popular-subjects/PopularSubjects3";
-import Registration from "@/components/sections/registrations/Registration";
-import Counter2 from "@/components/sections/sub-section/Counter2";
-import Instructors2 from "@/components/sections/instructors/Instructors2";
+import InstructorsPrimary from "@/components/sections/instructors/InstructorsPrimary";
 import Brands from "@/components/sections/brands/Brands";
+import BrandHero from "@/components/sections/sub-section/BrandHero";
+import Testimonials from "@/components/sections/testimonials/Testimonials";
+import VideoReview from "@/components/sections/Video Review/VideoReview";
 
 import React from "react";
 const Home1 = () => {
@@ -13,12 +13,11 @@ const Home1 = () => {
     <>
       <Hero6 />
       <PopularSubjects2 />
-      <PopularSubjects3 />
-      <FeatureCourses title={"Our online courses"} />
-      <Counter2 />
-      <Instructors2 />
+      <FeatureCourses title={"Our courses"} />
       <Brands />
-      <Registration />
+      <BrandHero />
+      <Testimonials />
+      <VideoReview />
     </>
   );
 };

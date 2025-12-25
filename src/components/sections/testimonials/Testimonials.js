@@ -8,15 +8,8 @@ const Testimonials = () => {
       <div className="container">
         {/* courses Heading */}
         <div className="mb-5 md:mb-10" data-aos="fade-up">
-          <div className="text-center">
-            <SectionName>Course List</SectionName>
-          </div>
-
           <HeadingPrimary text="center">
-            Client{" "}
-            <span className="relative after:w-full after:h-[7px] z-0 after:bg-secondaryColor after:absolute after:left-0 after:bottom-3 md:after:bottom-5 after:z-[-1]">
-              Testimonial
-            </span>
+            Students Feedback
           </HeadingPrimary>
         </div>
         {/* testimonial slider */}

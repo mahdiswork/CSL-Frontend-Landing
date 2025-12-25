@@ -5,7 +5,6 @@ import React from "react";
 const CoursesMain = () => {
   return (
     <>
-      <HeroPrimary path={"Featured Courses"} title={"Featured Course"} />
       <CoursesPrimary card={true} />
     </>
   );

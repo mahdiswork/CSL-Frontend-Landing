@@ -44,18 +44,13 @@ const DropdownCourses = () => {
           path: "/instructors",
         },
         {
-          name: "Instructor (Dark)",
-          status: null,
-          path: "/instructors-dark",
-        },
-        {
           name: "Instructor Details",
           status: null,
           path: "/instructors/1",
         },
         {
           name: "Course Lesson",
-          status: "New",
+          status: null,
           path: "/lessons/1",
         },
       ],

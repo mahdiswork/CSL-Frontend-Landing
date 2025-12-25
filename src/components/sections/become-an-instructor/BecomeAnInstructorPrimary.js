@@ -14,22 +14,14 @@ const BecomeAnInstructorPrimary = () => {
           {/* apply left */}
           <div data-aos="fade-up">
             <h6 className="text-2xl font-semibold text-blackColor dark:text-blackColor-dark leading-1.8 mb-15px">
-              Become an Instructor
+              Instructor হিসেবে কাজ করতে চান ?
             </h6>
             <p className="text-contentColor dark:text-contentColor-dark leading-1.8 mb-15px mt-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              blanditiis officiis vero fugiat inventore voluptates sint magnam,
-              accusantium cupiditate odio dolore ipsam ut, corrupti quisquam
-              veritatis pariatur harum labore voluptatibus consectetur dolorem
-              aliquid soluta.
+              <b>CSL Training</b> সবসময় আইটি ইন্ডাস্ট্রিরির  লিডার দের ইনস্ট্রাক্টর হিসেবে অগ্রাধিকার দিয়ে থাকে। আপনি যদি আইটি ইন্ডাস্ট্রি তে কাজ করে থাকেন আপনার যদি জব ০৩ বছরের অভিজ্ঞতা থাকে তাহলে আপনি ইনস্ট্রাক্টর হিসেবে কাজ করতে পারেন। <b>CSL Training</b> বর্তমানে দেশে এবং দেশের বাইরের যে কোন অভিজ্ঞ ব্যাক্তিকে ইনস্ট্রাক্টর হিসেবে কাজ করার সুযোগ দিচ্ছে। আপনি চাইলে অফলাইনে বা অনলাইনে ট্রেনিং করাতে পারেন। 
             </p>
             <h6 className="text-2xl font-semibold text-blackColor dark:text-blackColor-dark leading-1.8 mb-15px">
-              Instructor Rules
+              ইনস্ট্রাক্টর হিসেবে আপনার যেসকল যোগ্যতা থাকতে হবেঃ
             </h6>
-            <p className="text-contentColor dark:text-contentColor-dark leading-1.8 mb-15px mt-5">
-              Various versions have evolved over the years, sometimes by
-              accident, sometimes on purpose (injected humour and the like).
-            </p>
             {/* rules list */}
             <ul className="mb-30px space">
               <li className="mt-5 flex items-center gap-5">
@@ -37,7 +29,7 @@ const BecomeAnInstructorPrimary = () => {
                   <Image src={checkImage1} alt="" className="w-full" />
                 </div>
                 <p className="text-contentColor dark:text-contentColor-dark leading-1.8">
-                  Basic knowledge and detailed understanding of CSS3 to create.
+                  সংশ্লিষ্ট বিষয়ের উপরের তিন (০৩) বছরের বাস্তব অভিজ্ঞতা।
                 </p>
               </li>
               <li className="mt-5 flex items-center gap-5">
@@ -45,7 +37,7 @@ const BecomeAnInstructorPrimary = () => {
                   <Image src={checkImage1} alt="" className="w-full" />
                 </div>
                 <p className="text-contentColor dark:text-contentColor-dark leading-1.8">
-                  Details Idea about HTMLS, Creating Basic Web Pages using HTMLS
+                  সংশ্লিষ্ট বিষয়ের উপরে ভেন্ডর সার্টিফিকেট থাকতে হবে।
                 </p>
               </li>
               <li className="mt-5 flex items-center gap-5">
@@ -53,7 +45,7 @@ const BecomeAnInstructorPrimary = () => {
                   <Image src={checkImage1} alt="" className="w-full" />
                 </div>
                 <p className="text-contentColor dark:text-contentColor-dark leading-1.8">
-                  Web Page Layout Design and Slider Creation
+                  প্রেজেন্টেশন এবং কমিউনিকেশন স্কিল সুন্দর হতে হবে।
                 </p>
               </li>
               <li className="mt-5 flex items-center gap-5">
@@ -61,7 +53,7 @@ const BecomeAnInstructorPrimary = () => {
                   <Image src={checkImage1} alt="" className="w-full" />
                 </div>
                 <p className="text-contentColor dark:text-contentColor-dark leading-1.8">
-                  Image Insert method af web site
+                  যথা সময় ক্লাসে উপস্তিত থাকতে হবে।
                 </p>
               </li>
               <li className="mt-5 flex items-center gap-5">
@@ -69,51 +61,18 @@ const BecomeAnInstructorPrimary = () => {
                   <Image src={checkImage1} alt="" className="w-full" />
                 </div>
                 <p className="text-contentColor dark:text-contentColor-dark leading-1.8">
-                  Creating Styling Web Pages Using CSS3
+                  ক্লাসের পরে যতটুকু সম্ভব স্টুডেন্ট দের সাপোর্ট দিতে হবে।
+                </p>
+              </li>
+              <li className="mt-5 flex items-center gap-5">
+                <div className="h-25px w-25px">
+                  <Image src={checkImage1} alt="" className="w-full" />
+                </div>
+                <p className="text-contentColor dark:text-contentColor-dark leading-1.8">
+                  প্রতি ক্লাসের জন্য আলাদা আলদা করে ট্রেনিং প্লান এবং ল্যাব ডিজাইন করতে হবে।
                 </p>
               </li>
             </ul>
-            <h6 className="text-2xl font-semibold text-blackColor dark:text-blackColor-dark leading-1.8 mb-15px">
-              Start With courses
-            </h6>
-            <p className="text-contentColor dark:text-contentColor-dark leading-1.8 mb-15px mt-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-              facilis inventore tempora maxime quibusdam cumque aperiam? Ducimus
-              totam repellendus fugiat vel dolorum. Commodi, vel. Aliquid quia
-              voluptas esse accusantium? Libero impedit, odit dolorum sint fugit
-              error.
-            </p>
-            {/* rules list */}
-            <ul className="mb-30px space">
-              <li className="mt-5 flex items-center gap-5">
-                <div className="h-25px w-25px">
-                  <Image src={checkImage1} alt="" className="w-full" />
-                </div>
-                <p className="text-contentColor dark:text-contentColor-dark leading-1.8">
-                  Basic knowledge and detailed understanding of CSS3 to create.
-                </p>
-              </li>
-              <li className="mt-5 flex items-center gap-5">
-                <div className="h-25px w-25px">
-                  <Image src={checkImage1} alt="" className="w-full" />
-                </div>
-                <p className="text-contentColor dark:text-contentColor-dark leading-1.8">
-                  Details Idea about HTMLS, Creating Basic Web Pages using HTMLS
-                </p>
-              </li>
-              <li className="mt-5 flex items-center gap-5">
-                <div className="h-25px w-25px">
-                  <Image src={checkImage1} alt="" className="w-full" />
-                </div>
-                <p className="text-contentColor dark:text-contentColor-dark leading-1.8">
-                  Web Page Layout Design and Slider Creation
-                </p>
-              </li>
-            </ul>
-            <p className="text-contentColor dark:text-contentColor-dark leading-1.8 mb-15px mt-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-              voluptas.
-            </p>
           </div>
           {/* apply righ */}
           <div data-aos="fade-up">
@@ -152,7 +111,17 @@ const BecomeAnInstructorPrimary = () => {
                   </label>
                   <input
                     type="text"
-                    placeholder="+8-333-555-6666"
+                    placeholder="+8801xxxxxxx"
+                    className="w-full py-10px px-5 text-sm focus:outline-none text-contentColor dark:text-contentColor-dark bg-whiteColor dark:bg-whiteColor-dark border-2 border-borderColor dark:border-borderColor-dark placeholder:text-placeholder placeholder:opacity-80 leading-23px rounded-md font-no"
+                  />
+                </div>
+                <div>
+                  <label className="mb-3 block font-semibold">
+                    Linkedin
+                  </label>
+                  <input
+                    type="url"
+                    placeholder="https://linkedin.com/...."
                     className="w-full py-10px px-5 text-sm focus:outline-none text-contentColor dark:text-contentColor-dark bg-whiteColor dark:bg-whiteColor-dark border-2 border-borderColor dark:border-borderColor-dark placeholder:text-placeholder placeholder:opacity-80 leading-23px rounded-md font-no"
                   />
                 </div>
@@ -161,9 +130,6 @@ const BecomeAnInstructorPrimary = () => {
                 <label className="mb-3 block font-semibold">Bio</label>
                 <textarea
                   placeholder="Type you comments...."
-                  defaultValue={
-                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
-                  }
                   className="w-full py-10px px-5 text-sm text-contentColor dark:text-contentColor-dark bg-whiteColor dark:bg-whiteColor-dark border-2 border-borderColor dark:border-borderColor-dark placeholder:text-placeholder placeholder:opacity-80 leading-23px rounded-md"
                   cols="30"
                   rows="6"

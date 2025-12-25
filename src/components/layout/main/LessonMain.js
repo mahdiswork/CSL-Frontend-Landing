@@ -1,4 +1,3 @@
-import HeroPrimary from "@/components/sections/hero-banners/HeroPrimary";
 import LessonPrimary from "@/components/sections/lessons/LessonPrimary";
 import React from "react";
 

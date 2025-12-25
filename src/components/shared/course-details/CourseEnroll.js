@@ -19,7 +19,7 @@ const CourseEnroll = ({ type, course }) => {
         ""
       ) : (
         <div className="overflow-hidden relative mb-5">
-          <Image src={image || blogImage7} alt="" className="w-full" />
+          <Image src={image || blogImage7} alt="" className="w-full opacity-60" />
           <div className="absolute top-0 right-0 left-0 bottom-0 flex items-center justify-center z-10">
             <PopupVideo />
           </div>
@@ -46,7 +46,7 @@ const CourseEnroll = ({ type, course }) => {
         </div>
       </div>
       <div className="mb-5" data-aos="fade-up">
-        <button
+        {/* <button
           onClick={() =>
             addProductToCart({
               id: id || 1,
@@ -60,86 +60,54 @@ const CourseEnroll = ({ type, course }) => {
           className="w-full text-size-15 text-whiteColor bg-primaryColor px-25px py-10px border mb-10px leading-1.8 border-primaryColor hover:text-primaryColor hover:bg-whiteColor inline-block rounded group dark:hover:text-whiteColor dark:hover:bg-whiteColor-dark"
         >
           Add To Cart
-        </button>
+        </button> */}
         <button className="w-full text-size-15 text-whiteColor bg-secondaryColor px-25px py-10px mb-10px leading-1.8 border border-secondaryColor hover:text-secondaryColor hover:bg-whiteColor inline-block rounded group dark:hover:text-secondaryColor dark:hover:bg-whiteColor-dark">
-          Buy Now
+          Enroll Now
         </button>
 
-        <span className="text-size-13 text-contentColor dark:text-contentColor-dark leading-1.8">
+        {/* <span className="text-size-13 text-contentColor dark:text-contentColor-dark leading-1.8">
           <i className="icofont-ui-rotation"></i> 45-Days Money-Back Guarantee
-        </span>
+        </span> */}
       </div>
       <ul>
         <li className="flex items-center justify-between py-10px border-b border-borderColor dark:border-borderColor-dark">
           <p className="text-sm font-medium text-contentColor dark:text-contentColor-dark leading-1.8">
-            Instructor:
+            Training Method:
           </p>
           <p className="text-xs text-contentColor dark:text-contentColor-dark px-10px py-6px bg-borderColor dark:bg-borderColor-dark rounded-full leading-13px">
-            D. Willaim
+            Offline/Online
           </p>
         </li>
         <li className="flex items-center justify-between py-10px border-b border-borderColor dark:border-borderColor-dark">
           <p className="text-sm font-medium text-contentColor dark:text-contentColor-dark leading-1.8">
-            Start Date
+            Total Modules
           </p>
           <p className="text-xs text-contentColor dark:text-contentColor-dark px-10px py-6px bg-borderColor dark:bg-borderColor-dark rounded-full leading-13px">
-            05 Dec 2024
+            36
           </p>
         </li>
         <li className="flex items-center justify-between py-10px border-b border-borderColor dark:border-borderColor-dark">
           <p className="text-sm font-medium text-contentColor dark:text-contentColor-dark leading-1.8">
-            Total Duration
+            Course Duration
           </p>
           <p className="text-xs text-contentColor dark:text-contentColor-dark px-10px py-6px bg-borderColor dark:bg-borderColor-dark rounded-full leading-13px">
-            08Hrs 32Min
+            72 Hours
           </p>
         </li>
         <li className="flex items-center justify-between py-10px border-b border-borderColor dark:border-borderColor-dark">
           <p className="text-sm font-medium text-contentColor dark:text-contentColor-dark leading-1.8">
-            Enrolled
+            Total Session
           </p>
           <p className="text-xs text-contentColor dark:text-contentColor-dark px-10px py-6px bg-borderColor dark:bg-borderColor-dark rounded-full leading-13px">
-            100
+            24
           </p>
         </li>
         <li className="flex items-center justify-between py-10px border-b border-borderColor dark:border-borderColor-dark">
           <p className="text-sm font-medium text-contentColor dark:text-contentColor-dark leading-1.8">
-            Lectures
+            Class Duration
           </p>
           <p className="text-xs text-contentColor dark:text-contentColor-dark px-10px py-6px bg-borderColor dark:bg-borderColor-dark rounded-full leading-13px">
-            30
-          </p>
-        </li>
-        <li className="flex items-center justify-between py-10px border-b border-borderColor dark:border-borderColor-dark">
-          <p className="text-sm font-medium text-contentColor dark:text-contentColor-dark leading-1.8">
-            Skill Level
-          </p>
-          <p className="text-xs text-contentColor dark:text-contentColor-dark px-10px py-6px bg-borderColor dark:bg-borderColor-dark rounded-full leading-13px">
-            Basic
-          </p>
-        </li>
-        <li className="flex items-center justify-between py-10px border-b border-borderColor dark:border-borderColor-dark">
-          <p className="text-sm font-medium text-contentColor dark:text-contentColor-dark leading-1.8">
-            Language
-          </p>
-          <p className="text-xs text-contentColor dark:text-contentColor-dark px-10px py-6px bg-borderColor dark:bg-borderColor-dark rounded-full leading-13px">
-            Spanish
-          </p>
-        </li>
-        <li className="flex items-center justify-between py-10px border-b border-borderColor dark:border-borderColor-dark">
-          <p className="text-sm font-medium text-contentColor dark:text-contentColor-dark leading-1.8">
-            Quiz
-          </p>
-          <p className="text-xs text-contentColor dark:text-contentColor-dark px-10px py-6px bg-borderColor dark:bg-borderColor-dark rounded-full leading-13px">
-            Yes
-          </p>
-        </li>
-        <li className="flex items-center justify-between py-10px border-b border-borderColor dark:border-borderColor-dark">
-          <p className="text-sm font-medium text-contentColor dark:text-contentColor-dark leading-1.8">
-            Certificate
-          </p>
-          <p className="text-xs text-contentColor dark:text-contentColor-dark px-10px py-6px bg-borderColor dark:bg-borderColor-dark rounded-full leading-13px">
-            Yes
+            3 Hour
           </p>
         </li>
       </ul>

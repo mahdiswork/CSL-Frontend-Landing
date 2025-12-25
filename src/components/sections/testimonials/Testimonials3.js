@@ -66,53 +66,6 @@ const Testimonials3 = ({ isInsTructorDetails, id: cidx }) => {
                     <span className="text-xs text-lightGrey6">(44)</span>
                   </div>
                 </div>
-                <div>
-                  <p className="text-blackColor dark:text-blackColor-dark">
-                    Follow Us:
-                  </p>
-                  <ul className="flex gap-13px text-base text-contentColor dark:text-contentColor-dark">
-                    <li>
-                      <Link
-                        className="hover:text-primaryColor"
-                        href="https://www.facebook.com/"
-                      >
-                        <i className="icofont-facebook"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="hover:text-primaryColor"
-                        href="https://x.com/"
-                      >
-                        <i className="icofont-twitter"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="hover:text-primaryColor"
-                        href="https://www.instagram.com/"
-                      >
-                        <i className="icofont-instagram"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="hover:text-primaryColor"
-                        href="https://www.youtube.com/"
-                      >
-                        <i className="icofont-youtube-play"></i>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <Link
-                    href="#"
-                    className="text-sm md:text-size-15 text-whiteColor bg-primaryColor border border-primaryColor px-10 py-10px hover:text-primaryColor hover:bg-whiteColor rounded inline-block dark:hover:bg-whiteColor-dark dark:hover:text-whiteColor"
-                  >
-                    Follow
-                  </Link>
-                </div>
               </div>
 
               <div className="pt-7 mt-30px border-t border-borderColor dark:border-borderColor-dark">
@@ -136,7 +89,7 @@ const Testimonials3 = ({ isInsTructorDetails, id: cidx }) => {
                 <>
                   <div className="mb-10px mt-10">
                     <h4 className="text-3xl font-bold text-blackColor dark:text-blackColor-dark leading-1.2">
-                      Online Course
+                      My Courses
                     </h4>
                   </div>
                   <div className="-mx-15px">

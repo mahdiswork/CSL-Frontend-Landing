@@ -8,10 +8,21 @@ import InstructorContent from "./InstructorContent";
 import CourseTabButton from "../buttons/CourseTabButton";
 import TabContentWrapper from "../wrappers/TabContentWrapper";
 import { useEffect } from "react";
+import VendorExam from "./VendorExam";
+import Overview from "./Overview";
+import Schedule from "./Schedule";
 
 const CourseDetailsTab = ({ type, id }) => {
   const { currentIdx, setCurrentIdx, handleTabClick } = useTab();
   const tabButtons = [
+    {
+      name: (
+        <>
+          <i className="icofont-question-circle mr-2"></i> Overview
+        </>
+      ),
+      content: <Overview />,
+    },
     {
       name: (
         <>
@@ -45,6 +56,22 @@ const CourseDetailsTab = ({ type, id }) => {
       ),
       content: <InstructorContent id={id} />,
     },
+    {
+      name: (
+        <>
+          <i className="icofont-ui-calendar mr-2"></i> Schedule
+        </>
+      ),
+      content: <Schedule id={id} />,
+    },
+    {
+      name: (
+        <>
+          <i className="icofont-unique-idea mr-2"></i> Vendor Exam
+        </>
+      ),
+      content: <VendorExam id={id} />,
+    },
   ];
   useEffect(() => {
     if (type === 2) {
@@ -55,8 +82,8 @@ const CourseDetailsTab = ({ type, id }) => {
     }
   }, [, type, setCurrentIdx]);
   return (
-    <div data-aos="fade-up" className="tab course-details-tab">
-      <div className="tab-links flex flex-wrap md:flex-nowrap mb-30px rounded gap-0.5">
+    <div data-aos="fade-up" className="tab course-details-tab rounded">
+      <div className="tab-links flex flex-wrap md:flex-nowrap mb-30px rounded gap-0.5 overflow-x-scroll">
         {tabButtons?.map(({ name }, idx) => (
           <CourseTabButton
             key={idx}

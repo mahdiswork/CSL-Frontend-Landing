@@ -4,6 +4,7 @@ import HeadingPrimary from "@/components/shared/headings/HeadingPrimary";
 import SectionName from "@/components/shared/section-names/SectionName";
 import useIsTrue from "@/hooks/useIsTrue";
 import { usePathname } from "next/navigation";
+import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 
 const FeatureCourses = ({ title, course, subTitle }) => {
   const path = usePathname();
@@ -18,11 +19,11 @@ const FeatureCourses = ({ title, course, subTitle }) => {
     <section>
       <div
         className={`${
-          course ? "pt-30px " : isHome10 || isHome10Dark ? "" : "pt-20"
+          course ? "pt-5px " : isHome10 || isHome10Dark ? "" : "pt-5px"
         }  pb-70px`}
       >
         <div
-          className={isAbout || isAboutDark ? "container" : "container-fluid-2"}
+          className={isAbout || isAboutDark ? "container" : "container"} //container-fluid-2
         >
           {/* heading */}
           {isCourseDetails || isCourseDetailsDark ? (
@@ -39,6 +40,12 @@ const FeatureCourses = ({ title, course, subTitle }) => {
             {/* Swiper */}
             <FeaturedSlider />
           </div>
+        </div>
+
+        <div className="text-center">
+          <ButtonPrimary color="primaryColor" path="/courses">
+            View all <i className="icofont-long-arrow-right"></i>
+          </ButtonPrimary>
         </div>
       </div>
     </section>

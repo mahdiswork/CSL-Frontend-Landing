@@ -29,6 +29,13 @@ const NavItems = () => {
     },
     {
       id: 4,
+      name: "Job Guarantee Course",
+      path: "/ecommerce/shop",
+      dropdown: <DropdownEcommerce />,
+      isRelative: true,
+    },
+    {
+      id: 4,
       name: "Vendor Exam",
       path: "/ecommerce/shop",
       dropdown: <DropdownEcommerce />,

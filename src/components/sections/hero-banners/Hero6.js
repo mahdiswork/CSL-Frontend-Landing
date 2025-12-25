@@ -17,9 +17,8 @@ const Hero6 = () => {
             <div data-aos="fade-up" className="w-4/5 mb-15px">
               <HreoName>EDUCATION SOLUTION</HreoName>
               <HeadingLg color="white">
-                Massive Courses <br />
-                Available for Anyone{" "}
-                <span className="text-secondaryColor">.</span>
+                TRAINING | CERTIFICATION | RECOGNITION
+                {" "}
               </HeadingLg>
             </div>
             <form
@@ -146,19 +145,19 @@ const Hero6 = () => {
               <li>
                 <p className="text-whiteColor">
                   <i className="icofont-check-alt"></i>
-                  <span className="ml-5px">More than 2k Courses</span>
+                  <span className="ml-5px">More than 50+ Courses</span>
                 </p>
               </li>
               <li>
                 <p className="text-whiteColor">
                   <i className="icofont-check-alt"></i>
-                  <span className="ml-5px">1.1k Free Courses</span>
+                  <span className="ml-5px">30k+ Learners</span>
                 </p>
               </li>
               <li>
                 <p className="text-whiteColor">
                   <i className="icofont-check-alt"></i>
-                  <span className="ml-5px">150+ Instructors</span>
+                  <span className="ml-5px">50+ Instructors</span>
                 </p>
               </li>
             </ul>

@@ -1,61 +1,21 @@
 import Image from "next/image";
 import React from "react";
-import logoImage from "@/assets/images/logo/logo_2.png";
-import useIsSecondary from "@/hooks/useIsSecondary";
+import logo1 from "@/assets/images/logo/csl-logo.png";
+
 const CopyRight = () => {
-  const { isSecondary } = useIsSecondary();
   return (
     <div>
-      {isSecondary ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-10 lg:mt-4 items-center border-t border-darkcolor">
-          <div>
-            <p className="text-base text-center sm:text-start text-darkgray">
-              © 2024 Powered by{" "}
-              <a href="#" className="hover:text-primaryColor">
-                Edurock
-              </a>{" "}
-              . All Rights Reserved.
-            </p>
-          </div>
+        <div className="pt-2 text-center">
 
-          <div>
-            <ul className="flex items-center justify-center sm:justify-end">
-              <li>
-                <a
-                  href="#"
-                  className="text-base text-darkgray hover:text-primaryColor pr-4 border-r border-darkgray leading-1"
-                >
-                  Terms of Use
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-base text-darkgray hover:text-primaryColor pl-4"
-                >
-                  Privacy Policy
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-30px pt-10 items-center">
-          <div className="lg:col-start-1 lg:col-span-3">
-            <a href="index.html">
-              <Image src={logoImage} alt="" placeholder="blur" />
-            </a>
-          </div>
-
-          <div className="lg:col-start-4 lg:col-span-6">
+          <div className="">
             <p className="text-whiteColor">
-              Copyright © <span className="text-primaryColor">2024 </span> by
-              edurock. All Rights Reserved.
+              Copyright © <span className="text-primaryColor" id="footeryear">2026 </span> by
+              CSL Training. All Rights Reserved.
             </p>
           </div>
 
-          <div className="lg:col-start-10 lg:col-span-3">
-            <ul className="flex gap-3 lg:gap-2 2xl:gap-3 lg:justify-end">
+          <div className="mt-2 flex justify-center">
+            <ul className="flex gap-3 lg:gap-2 2xl:gap-3 lg:justify-center">
               <li>
                 <a
                   href="https://www.facebook.com"
@@ -99,7 +59,6 @@ const CopyRight = () => {
             </ul>
           </div>
         </div>
-      )}
     </div>
   );
 };

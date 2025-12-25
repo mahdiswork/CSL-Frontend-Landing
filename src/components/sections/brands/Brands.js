@@ -25,15 +25,11 @@ const Brands = () => {
   ];
   return (
     <section className="bg-lightGrey10 dark:bg-lightGrey10-dark">
-      <div className="container pb-60px">
+      <div className="container pt-60px pb-60px">
         {/* Brands Heading  */}
         <div className="mb-5 md:mb-10" data-aos="fade-up">
           <HeadingPrimary text="center">
-            Relied on marketers trusted by engineers and <br />
-            Beloved by{" "}
-            <span className="relative after:w-full after:h-[7px] z-0 after:bg-secondaryColor after:absolute after:left-0 after:bottom-3 md:after:bottom-5 after:z-[-1]">
-              Executives
-            </span>
+            Our Corporate Clients
           </HeadingPrimary>
         </div>
         {/* brands  */}

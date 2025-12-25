@@ -26,18 +26,7 @@ const Navbar = () => {
     >
       <nav>
         <div
-          className={`py-15px lg:py-0 px-15px ${
-            isHome1 ||
-            isHome1Dark ||
-            isHome4 ||
-            isHome4Dark ||
-            isHome5 ||
-            isHome5Dark
-              ? "lg:container 3xl:container2-lg"
-              : isHome2 || isHome2Dark
-              ? "container sm:container-fluid lg:container 3xl:container-secondary "
-              : "lg:container 3xl:container-secondary-lg "
-          } 4xl:container mx-auto relative`}
+          className={`py-15px lg:py-0 px-15px lg:container 3xl:container2-lg 4xl:container mx-auto relative`}
         >
           {isHome4 || isHome4Dark || isHome5 || isHome5Dark ? (
             <NavbarTop />
