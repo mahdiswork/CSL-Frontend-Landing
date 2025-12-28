@@ -10,7 +10,6 @@ const Preloader = () => {
           src={spinnerImage}
           alt="Preloader"
           className="h-10 w-10 block"
-          placeholder="blur"
         />
       </div>
     </div>

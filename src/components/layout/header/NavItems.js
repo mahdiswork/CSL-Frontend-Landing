@@ -2,7 +2,9 @@ import React from "react";
 import Navitem from "./Navitem";
 import DropdownCourses from "./DropdownCourses";
 import DropdownWrapper from "@/components/shared/wrappers/DropdownWrapper";
-import DropdownEcommerce from "./DropdownEcommerce";
+import DropdownJBP from "./DropdownJBP";
+import DropdownVExam from "./DropdownVExam";
+import DropdownMore from "./DropdownMore";
 
 const NavItems = () => {
   const navItems = [
@@ -31,21 +33,21 @@ const NavItems = () => {
       id: 4,
       name: "Job Guarantee Course",
       path: "/ecommerce/shop",
-      dropdown: <DropdownEcommerce />,
+      dropdown: <DropdownJBP />,
       isRelative: true,
     },
     {
       id: 4,
       name: "Vendor Exam",
       path: "/ecommerce/shop",
-      dropdown: <DropdownEcommerce />,
+      dropdown: <DropdownVExam />,
       isRelative: true,
     },
     {
       id: 5,
       name: "More",
       path: "/ecommerce/shop",
-      dropdown: <DropdownEcommerce />,
+      dropdown: <DropdownMore />,
       isRelative: true,
     },
   ];

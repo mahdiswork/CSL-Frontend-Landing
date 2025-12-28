@@ -25,21 +25,14 @@ const NavbarRight = () => {
           ""
         ) : (
           <li className="hidden lg:block">
-            <LoginButton />
+            <Link
+              href="/login"
+              className="text-size-12 2xl:text-size-15 text-whiteColor bg-primaryColor block border-primaryColor border hover:text-primaryColor hover:bg-white px-15px py-2 rounded-standard dark:hover:bg-whiteColor-dark dark: dark:hover:text-whiteColor"
+            >
+              Login/Register
+            </Link>
           </li>
         )}
-        <li className="hidden lg:block">
-          <Link
-            href="/courses"
-            className="text-size-12 2xl:text-size-15 text-whiteColor bg-primaryColor block border-primaryColor border hover:text-primaryColor hover:bg-white px-15px py-2 rounded-standard dark:hover:bg-whiteColor-dark dark: dark:hover:text-whiteColor"
-          >
-            {isHome2Dark
-              ? "Get Started Free"
-              : isHome4 || isHome4Dark || isHome5 || isHome5Dark
-              ? "Get Start Here"
-              : "Get Start"}
-          </Link>
-        </li>
         <li className="block lg:hidden">
           <MobileMenuOpen />
         </li>

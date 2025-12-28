@@ -6,6 +6,7 @@ import Brands from "@/components/sections/brands/Brands";
 import BrandHero from "@/components/sections/sub-section/BrandHero";
 import Testimonials from "@/components/sections/testimonials/Testimonials";
 import VideoReview from "@/components/sections/Video Review/VideoReview";
+import CoursesFilter3 from "@/components/sections/courses/CoursesFilter3";
 
 import React from "react";
 const Home1 = () => {
@@ -13,7 +14,7 @@ const Home1 = () => {
     <>
       <Hero6 />
       <PopularSubjects2 />
-      <FeatureCourses title={"Our courses"} />
+      <CoursesFilter3/>
       <Brands />
       <BrandHero />
       <Testimonials />

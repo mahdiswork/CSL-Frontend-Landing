@@ -284,7 +284,7 @@ const PopularSubjects2 = () => {
       <div className="container">
         {/* Subject Header  */}
         <div data-aos="fade-up" className="mb-5 md:mb-10">
-          <HeadingPrimary data-aos="fade-up">{"Our Services"}</HeadingPrimary>
+          <HeadingPrimary data-aos="fade-up" text="center">{"Our Services"}</HeadingPrimary>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-30px">
           {/* subject cards  */}
